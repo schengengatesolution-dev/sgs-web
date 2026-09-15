@@ -27,7 +27,7 @@ export default function HomePage() {
             alt={site.name}
             width={220}
             height={100}
-            className="h-16 w-auto brightness-0 invert md:h-20"
+            className="h-16 w-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.35)] md:h-20"
             priority
           />
           <p className="text-sm font-bold tracking-[0.2em] text-sky">{site.tagline}</p>
